@@ -3,6 +3,8 @@
     internal abstract class Animal
     {
         protected int legCount;
+
+        public int GetLegCount() => legCount;
         public virtual void Move()
         {
             Console.WriteLine("Un pattes après l'autre");
