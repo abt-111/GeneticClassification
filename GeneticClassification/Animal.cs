@@ -1,6 +1,6 @@
 ﻿namespace GeneticClassification
 {
-    internal class Animal
+    internal abstract class Animal
     {
         protected int legCount;
         public virtual void Move()
