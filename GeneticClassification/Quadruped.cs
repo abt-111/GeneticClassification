@@ -2,9 +2,9 @@
 {
     internal abstract class Quadruped : Animal
     {
-        public Quadruped(int legCount = 4)
+        public Quadruped(string name, int legCount = 4) : base(name, legCount)
         {
-            this.legCount = legCount;
+
         }
     }
 }

@@ -2,8 +2,16 @@
 {
     internal abstract class Animal
     {
+        protected string name;
         protected int legCount;
 
+        public Animal(string name, int legCount)
+        {
+            this.name = name;
+            this.legCount = legCount;
+        }
+
+        public string GetName() => name;
         public int GetLegCount() => legCount;
         public virtual void Move()
         {

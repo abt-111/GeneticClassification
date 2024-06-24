@@ -2,9 +2,9 @@
 {
     internal abstract class Biped : Animal
     {
-        public Biped(int legCount = 2)
+        public Biped(string name, int legCount = 2) : base(name, legCount)
         {
-            this.legCount = legCount;
+
         }
     }
 }
